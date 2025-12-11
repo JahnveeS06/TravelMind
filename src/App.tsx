@@ -7,7 +7,7 @@ import {
   Cloud, Wifi, WifiOff, AlertTriangle, Filter, Check, Plus, Minus, ThumbsUp, MapPin, ArrowDownUp,
   LocateFixed, Edit, Save, Trash2, Clock, Image as ImageIcon
 } from 'lucide-react';
-import { getDestinationInsights, generateItinerary, chatWithAI, generatePackingList, getStays, getFoodRecommendations } from './services/geminiService';
+import { getDestinationInsights, generateItinerary, chatWithAI, generatePackingList, getStays, getFoodRecommendations } from '../services/geminiService';
 import { Destination, TripDay, Post, PackingItem, Place, RouteOption, SavedItinerary, TripActivity } from './types';
 import { getPlaceImage } from './constants/destinationImages';
 
