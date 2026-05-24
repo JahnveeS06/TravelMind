@@ -1,0 +1,7 @@
+{
+  "name": "TravelMind",
+  "description": "An AI-powered social travel guide and itinerary generator featuring destination insights, smart itinerary building, and community sharing.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
